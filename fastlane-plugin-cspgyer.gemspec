@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = 'kcommand@163.com'
 
   spec.summary       = '蒲公英上传插件'
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-cspgyer"
+  spec.homepage      = "https://github.com/iimuy/fastlane-plugin-cspgyer"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
