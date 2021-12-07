@@ -69,7 +69,7 @@ module Fastlane
         end
 
         UI.success "Upload success. Visit this URL to see: https://www.pgyer.com/#{info['data']['appShortcutUrl']}"
-        UI.success "Upload success. Visit this qrcode URL to see: #{info['data']['buildQRCodeURL']}"
+        UI.success "Upload success. Visit this qrcode URL to see: #{info['data']}"
       end
 
       def self.description
